@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>株式会社なんにもしない</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root {
+      color-scheme: light dark;
+    }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top, #f5f5f5, #e0e0e0);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card {
+      background: rgba(255,255,255,0.9);
+      border-radius: 18px;
+      padding: 32px 28px;
+      max-width: 720px;
+      width: 90%;
+      box-shadow: 0 18px 45px rgba(0,0,0,0.12);
+      backdrop-filter: blur(8px);
+    }
+    h1 {
+      font-size: 1.9rem;
+      margin: 0 0 4px;
+    }
+    .sub {
+      color: #666;
+      font-size: 0.95rem;
+      margin-bottom: 18px;
+    }
+    .tagline {
+      font-size: 1.1rem;
+      margin: 16px 0 24px;
+      font-weight: 600;
+    }
+    section {
+      margin-bottom: 24px;
+    }
+    h2 {
+      font-size: 1.1rem;
+      margin: 0 0 8px;
+      border-left: 4px solid #333;
+      padding-left: 8px;
+    }
+    p {
+      margin: 4px 0 8px;
+      line-height: 1.7;
+      font-size: 0.95rem;
+    }
+    ul {
+      margin: 4px 0 8px 1.2em;
+      padding: 0;
+      font-size: 0.95rem;
+    }
+    li {
+      margin-bottom: 4px;
+    }
+    .points {
+      display: grid;
+      gap: 12px;
+    }
+    .point {
+      border-radius: 10px;
+      background: #fafafa;
+      padding: 10px 12px;
+      border: 1px solid #eee;
+      font-size: 0.9rem;
+    }
+    .footer {
+      margin-top: 16px;
+      font-size: 0.8rem;
+      color: #777;
+      border-top: 1px dashed #ddd;
+      padding-top: 10px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .badge {
+      display: inline-block;
+      border-radius: 999px;
+      padding: 4px 10px;
+      font-size: 0.75rem;
+      border: 1px solid #ccc;
+      background: #f8f8f8;
+    }
+    @media (prefers-color-scheme: dark) {
+      body {
+        background: radial-gradient(circle at top, #202020, #050505);
+      }
+      .card {
+        background: rgba(20,20,20,0.9);
+        color: #f5f5f5;
+      }
+      .sub { color: #aaa; }
+      .point {
+        background: #111;
+        border-color: #333;
+      }
+      .footer {
+        border-top-color: #333;
+        color: #aaa;
+      }
+      .badge {
+        background: #111;
+        border-color: #555;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <header>
+      <h1>株式会社なんにもしない</h1>
+      <div class="sub">Kabushiki Kaisha Nannimo Shinai（仮想企業サイト）</div>
+      <div class="tagline">── 何もしない。それが、わたしたちのしごとです。</div>
+    </header>
+
+    <section>
+      <h2>会社概要</h2>
+      <p>
+        株式会社なんにもしないは、「何もしない」という価値をとことん追求する架空の会社です。<br>
+        生産性・効率・成長といった言葉から、いったん静かに距離をとり、<br>
+        ただそこに存在することの尊さを見つめ直します。
+      </p>
+      <ul>
+        <li>商号：株式会社なんにもしない（フィクション）</li>
+        <li>事業内容：特にありません</li>
+        <li>所在地：どこでもなく、どこにでも</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>「なんにもしない」事業内容</h2>
+      <div class="points">
+        <div class="point">
+          ・積極的に何もしません。<br>
+          ・会議も開かず、議事録も取りません。<br>
+          ・KPI も追いません。安心して何も起こりません。
+        </div>
+        <div class="point">
+          ・ご相談をいただいても、基本的には「何もしない」ことをご提案します。<br>
+          ・必要のないタスクをそっと手放すお手伝い（をするかどうかも未定）です。
+        </div>
+        <div class="point">
+          ・この会社自体がジョークであり、実在しないことをここに明記します。<br>
+          ・お問い合わせ窓口も、当然ながら存在しません。
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>ご注意</h2>
+      <p>
+        このサイトはジョークとして作成されたものであり、<br>
+        実在の団体・企業・サービスとは一切関係ありません。<br>
+        リラックスして、お楽しみください。
+      </p>
+    </section>
+
+    <div class="footer">
+      <span>© 株式会社なんにもしない（架空）</span>
+      <span class="badge">This page does absolutely nothing.</span>
+    </div>
+  </main>
+</body>
+</html>
